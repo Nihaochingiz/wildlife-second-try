@@ -141,10 +141,12 @@ color: #F7F7F7;
 .latest-articles {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    
     box-sizing: border-box;
     background-color: #CCCCCC;
     margin-top: 22.6%;
+    
    
     
 }
@@ -349,11 +351,11 @@ background: url(assets/img/footer.png);
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 530px) {
     .header-with-image {
-        width: 100%;
+        
         position: relative;
-        top: 0;
+       width: 100vh;
         background-color: #333333;
     }
 
@@ -366,32 +368,66 @@ background: url(assets/img/footer.png);
         
     }
     .logo {
-        margin-left:0;
-        float: left;
+        margin-left:3%;
+        
     }
     .contacts {
-        margin-left: 25%;
-        margin-top: 20%;
-        float: left;
-        display:block;
+       display: flex;
+       flex-direction: column;
+       margin-left: 5%;
+       padding-top: 20%;
+
+       
+       
+       
     }
+
+    
+     .contacts img {
+         margin-top: 10%;
+     }
 
     .survival {
         width: 100%;
-        margin-left: 0;
+        margin-left: 10%;
         margin-top: 40%;
     }
 
     .latest-articles {
-        width: 100%;
+        width: 100vh;
     }
 
     .image-slider {
-        float: left;
-        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
     }
 
     .image-slider > img {
         left: 0;
+    }
+
+
+    .footer {
+        height: 700px;
+        
+    }
+
+    .nav-footer {
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+
+    .nav-footer li {
+        padding-top: 10px;
+    }
+
+    .social a {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        
     }
 }
