@@ -225,6 +225,7 @@ color: #F7F7F7;
     position: relative;
     margin-top: 20%;
     padding-left: 35%;
+    padding-bottom: 5%;
 }
 
 
@@ -391,10 +392,14 @@ background: url(assets/img/footer.png);
         width: 100%;
         margin-left: 10%;
         margin-top: 40%;
+        height: 700px;
     }
+
+    
 
     .latest-articles {
         width: 100vh;
+        margin-top: -10%;
     }
 
     .image-slider {
@@ -410,6 +415,7 @@ background: url(assets/img/footer.png);
 
     .footer {
         height: 700px;
+        width: 760px;
         
     }
 
