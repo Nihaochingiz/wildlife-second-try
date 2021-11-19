@@ -345,10 +345,10 @@ background: url(assets/img/footer.png);
        flex-direction: column;
        margin-left: 5%;
        padding-top: 6%;
-
        
-       
-       
+    }
+    .get-notified {
+        padding-left: 20%;
     }
 
    
@@ -389,7 +389,7 @@ background: url(assets/img/footer.png);
 
 
     .footer {
-        height: 700px;
+        height: 360px;
         width: 760px;
         
     }
