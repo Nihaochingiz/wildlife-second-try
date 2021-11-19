@@ -319,40 +319,8 @@ background: url(assets/img/footer.png);
     
 }
 
-@media screen and (max-width: 1200px){ 
-    .footer {
-      width: 100%;
-      margin-right: 0;
-    }
-    
-    .nav-footer {
-        height: 100px;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        margin: auto 0;
-    }
-    .social > a {
-        
-      margin-top: 40%;
-      float: left;
-  }
-  
 
-  .latest-articles {
-    width: 100%;
-    margin-right: 0;
-  }
-
-  .image-slider > img {
-    width: 100%;
-    margin-right: 0;
-    float: left;
-  }
-}
-
-
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 1200px) {
     .header-with-image {
         
         position: relative;
@@ -428,12 +396,18 @@ background: url(assets/img/footer.png);
 
     .nav-footer li {
         padding-top: 10px;
+        margin-left: 10%;
     }
 
-    .social a {
+    .social  {
         display: flex;
-        flex-direction: column;
-        margin-left: 20%;
+        flex-direction: row;
+        margin-left: 40%;
+        margin-top: 5%;
+        
+        
         
     }
+
+
 }
