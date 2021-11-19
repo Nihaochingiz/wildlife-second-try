@@ -344,16 +344,18 @@ background: url(assets/img/footer.png);
        display: flex;
        flex-direction: column;
        margin-left: 5%;
-       padding-top: 20%;
+       padding-top: 6%;
 
        
        
        
     }
 
+   
+
     
      .contacts img {
-         margin-top: 10%;
+         margin-top: 2%;
      }
 
     .survival {
@@ -361,6 +363,11 @@ background: url(assets/img/footer.png);
         margin-left: 10%;
         margin-top: 40%;
         height: 700px;
+    }
+
+    .survival p {
+        font-size: 25px;
+        
     }
 
     
