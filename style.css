@@ -2,7 +2,10 @@ body {
     margin:0;
 	padding:0;
 	overflow-x: hidden;
+    box-sizing: border-box;
 }
+
+
 .header {
     position: relative;
     
@@ -11,7 +14,7 @@ body {
 
 .header-with-image {
     position: relative;
-    display:block;
+    
 }
 
 .logo {
@@ -321,21 +324,27 @@ background: url(assets/img/footer.png);
 
 
 @media screen and (max-width: 1200px) {
+    
     .header-with-image {
         
         position: relative;
-        width: 760px;
+        width: 100%;
+        
         background-color: #333333;
+        
     }
 
     
     .background-image > img {
         width: 760px;
+        height: auto;
         float: left;
         
         
         
     }
+
+    
     .logo {
         margin-left:3%;
         
@@ -358,16 +367,23 @@ background: url(assets/img/footer.png);
          margin-top: 2%;
      }
 
+     .header-with-image {
+        background-color: black;
+     }
     .survival {
-        width: 760px;
-        margin-left: 10%;
-        margin-top: 40%;
-        height: 700px;
+        background-color: black;
+        
+        
+        margin-top: 5%
+        
+        
+        
+        
     }
 
     .survival p {
         font-size: 25px;
-        
+        max-width: 100%;
     }
 
     
