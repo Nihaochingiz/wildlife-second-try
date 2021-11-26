@@ -372,21 +372,25 @@ background: url(assets/img/footer.png);
      }
     .survival {
         background-color: black;
+        width: 759px;
+        margin-left:0;
         
         
-        margin-top: 5%
         
         
         
         
     }
+    
 
     .survival p {
         font-size: 25px;
         max-width: 100%;
     }
 
-    
+    .donate {
+        margin-bottom: 5%;;
+    }
 
     .latest-articles {
         width: 760px;
@@ -397,6 +401,7 @@ background: url(assets/img/footer.png);
         display: flex;
         flex-direction: column;
         width: 400px;
+        
     }
 
     .image-slider > img {
